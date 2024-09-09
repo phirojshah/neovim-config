@@ -89,7 +89,7 @@ f1: Trigger Copilot auto-complete.
 Permanent:
 Edit or create the file ~/.Xmodmap:
 ```
-nano ~/.Xmodmap
+nvim ~/.Xmodmap
 ```
 
 Add the following line to swap Caps Lock and Esc:
