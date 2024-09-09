@@ -32,12 +32,50 @@ Welcome to my Neovim configuration repository! This setup is tailored to enhance
 4. Restart Neovim After the plugins are installed, restart Neovim to apply the configuration.
 
 5. Keybindings
-    Here are some of the custom keybindings in this configuration:
-    File Explorer: Space +  t to toggle the file explorer.
-    Fuzzy Finder: Space + fg to open Telescope's file finder.
-    LSP Actions: gd to go to definition, gr to rename, and K to show hover information.
-    Git: ]c and [c to navigate between git changes, :Gitsigns preview_hunk to preview changes.
-    Commenting: gc to comment/uncomment lines.
+```
+Here are the custom keybindings included in this configuration:
+
+General Navigation:
+
+C-j: Open and minimize the terminal.
+gg: Jump to the top of the file.
+G: Jump to the end of the file.
+nG: Jump to the nth line.
+H: Jump to the top of the screen.
+0: Move to the beginning of the line.
+$: Move to the end of the line.
+w: Move to the next word.
+b: Move to the previous word.
+File Operations:
+
+a: Create a new file.
+d: Delete the current file.
+:p: Go to the previous file.
+:n: Go to the next file.
+Editing:
+
+dd: Delete the current line.
+D: Delete to the end of the line.
+y: Copy (yank).
+d: Cut (delete).
+p: Paste.
+u: Undo.
+U: Undo all changes.
+v: Enter visual mode.
+Code Navigation and Searching:
+
+space fg: Search for file contents using ripgrep.
+C-s: Mark a file.
+C-m: Mark a file.
+:mason: Install plugins or language servers.
+ripgrep: Installation for searching file contents.
+Copilot Integration:
+
+:Copilot: Enable Copilot.
+:copilotAuth: Authenticate Copilot.
+f1: Trigger Copilot auto-complete.
+```
+
 
 
 ## Customization
