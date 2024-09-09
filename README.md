@@ -72,8 +72,8 @@ v: Enter visual mode.
 Code Navigation and Searching:
 ```
 space fg: Search for file contents using ripgrep.
-Ctrl-s: Mark a file.
-Ctrl-m: Mark a file.
+Space-s: Mark a file.
+Space-m: Mark a file.
 :mason: Install plugins or language servers.
 ripgrep: Installation for searching file contents.
 ```
