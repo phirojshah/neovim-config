@@ -85,7 +85,25 @@ Copilot Integration:
 f1: Trigger Copilot auto-complete.
 ```
 
+## Swapping of caps_lock to esc (not necessary)
+Permanent:
+Edit or create the file ~/.Xmodmap:
+```
+nano ~/.Xmodmap
+```
 
+Add the following line to swap Caps Lock and Esc:
+```
+remove Lock = Caps_Lock
+keysym Caps_Lock = Escape
+keysym Escape = Caps_Lock
+add Lock = Caps_Lock
+```
+
+Load the new configuration:
+```
+xmodmap ~/.Xmodmap
+```
 
 ## Customization
  Feel free to customize the configuration by editing the files in the ~/.config/nvim directory. The main configuration file is init.lua, where you can add or modify plugins, keybindings, and other settings.
