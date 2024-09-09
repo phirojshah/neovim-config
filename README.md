@@ -32,11 +32,11 @@ Welcome to my Neovim configuration repository! This setup is tailored to enhance
 4. Restart Neovim After the plugins are installed, restart Neovim to apply the configuration.
 
 ## Keybindings
-```
+
  Here are the custom keybindings included in this configuration:
 
 General Navigation:
-
+```
 Ctrl-j: Open and minimize the terminal.
 gg: Jump to the top of the file.
 G: Jump to the end of the file.
@@ -47,17 +47,18 @@ $: Move to the end of the line.
 w: Move to the next word.
 b: Move to the previous word.
 gcc: Comment/Uncomment line
-
- File Operations:
-
+```
+ 
+File Operations:
+```
 a: Create a new file.
 d: Delete the current file.
 :p: Go to the previous file.
 :n: Go to the next file.
-
+```
 
 Editing:
-
+```
 dd: Delete the current line.
 D: Delete to the end of the line.
 y: Copy (yank).
@@ -66,17 +67,19 @@ p: Paste.
 u: Undo.
 U: Undo all changes.
 v: Enter visual mode.
-
+```
 
 Code Navigation and Searching:
-
+```
 space fg: Search for file contents using ripgrep.
 Ctrl-s: Mark a file.
 Ctrl-m: Mark a file.
 :mason: Install plugins or language servers.
 ripgrep: Installation for searching file contents.
-Copilot Integration:
+```
 
+Copilot Integration:
+```
 :Copilot: Enable Copilot.
 :copilotAuth: Authenticate Copilot.
 f1: Trigger Copilot auto-complete.
